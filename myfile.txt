@@ -1,2 +1,5 @@
 "Hello this is the repository of Chantal"
 this is a new line. 
+I have an apple
+I have a phone
+apple-phone
