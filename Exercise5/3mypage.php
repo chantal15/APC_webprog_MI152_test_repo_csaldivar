@@ -134,7 +134,10 @@ a
 			<li><a class="active" href="#home">Home</a></li>
 			
 		</ul>
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 165d43018e2b87794d4fb846579e7b1265e6449c
 
 
 		
@@ -145,7 +148,11 @@ a
                 <h3><em>I am <strong>fearfully wonderfully</strong> made...</em></h3>
             </div>
 
+<<<<<<< HEAD
 			<a href="index.php" style="margin-left: 620px; color: black; text-decoration: none; font-size: 24px;">Go to Database</a>
+=======
+
+>>>>>>> 165d43018e2b87794d4fb846579e7b1265e6449c
             <h1>CHANTAL SALDIVAR</h1>
 
             <p>Hello! Hi! Im Chantal Saldivar but you can call me chanty as well.Im an <stong>APCIAN</strong> student and Im welcoming myself to the website world.<br>I hope html will not be so hard to me,patience is a must! Im so exoited about learning more whoooooooooooooooooooooooooooooooo! :)</p>
