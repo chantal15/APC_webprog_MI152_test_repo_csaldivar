@@ -10,16 +10,16 @@ if(isset($_POST['btn-update']))
 {
  // variables for input data
  $complete_name = $_POST['complete_name'];
- $nick = $_POST['nick'];
- $eadd = $_POST['eadd'];
- $address = $_POST['address'];
- $sex = $_POST['sex'];
- $no = $_POST['no'];
+ $nickname = $_POST['nickname'];
+ $emailadd = $_POST['emailadd'];
+ $homeadd = $_POST['homeadd'];
+ $gender = $_POST['gender'];
+ $cellno = $_POST['cellno'];
  $comment = $_POST['comment'];
  // variables for input data
 
  // sql query for update data into database
- $sql_query = "UPDATE users SET complete_name='$complete_name',nickname='$nick',email='$eadd',address='$address' ,gender='$sex',number='$no',comment='$comment' WHERE user_id=".$_GET['edit_id'];
+ $sql_query = "UPDATE users SET complete_name='$complete_name',nickname='$nickname',emailadd='$emailadd',homeadd='$homeadd' ,gender='$gender',cellno='$cellno',comment='$comment' WHERE user_id=".$_GET['edit_id'];
  // sql query for update data into database
  
  // sql query execution function
@@ -71,22 +71,22 @@ if(isset($_POST['btn-cancel']))
     <td><input type="text" name="complete_name" placeholder="Complete Name" value="<?php echo $fetched_row['complete_name']; ?>" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="nick" placeholder="Nickname" value="<?php echo $fetched_row['nick']; ?>" required /></td>
+    <td><input type="text" name="nickname" placeholder="Nickname" value="<?php echo $fetched_row['nickname']; ?>" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="eadd" placeholder="Email address" value="<?php echo $fetched_row['eadd']; ?>" required /></td>
+    <td><input type="text" name="emailadd" placeholder="Email address" value="<?php echo $fetched_row['emailadd']; ?>" required /></td>
     </tr>
 	<tr>
-    <td><input type="text" name="address" placeholder="Home address" value="<?php echo $fetched_row['address']; ?>" required /></td>
+    <td><input type="text" name="homeadd" placeholder="Home address" value="<?php echo $fetched_row['homeadd']; ?>" required /></td>
     </tr>
 	<tr>
     <td>
-	<input type="radio" name="sex" <?php if (isset($sex) && $sex=="female") echo $fetched_row['sex']; ?> value="Female">Female
-	<input type="radio" name="sex" <?php if (isset($sex) && $sex=="male") echo $fetched_row['sex']; ?> value="Male">Male
+	<input type="radio" name="gender" <?php if (isset($g) && $gender=="female") echo $fetched_row['gender']; ?> value="Female">Female
+	<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo $fetched_row['gender']; ?> value="Male">Male
 	</td>
     </tr>
 	<tr>
-    <td><input type="no" name="no" placeholder="Cellphone Number" value="<?php echo $fetched_row['no']; ?>" required /></td>
+    <td><input type="number" name="cellno" placeholder="Cellphone Number" value="<?php echo $fetched_row['cellno']; ?>" required /></td>
     </tr>
 	 <td>Comment: <br>
 	 <textarea name="comment" rows="10" cols="144"><?php echo $fetched_row['comment']; ?></textarea>
