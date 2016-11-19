@@ -34,7 +34,7 @@ if(isset($_POST['btn-cancel']))
 <title>Add Data Page</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<body style="background-image: url(bg.jpg);">
+<body style="background-image: url(ironman.jpg);">
 <center>
 
 <div id="header">
