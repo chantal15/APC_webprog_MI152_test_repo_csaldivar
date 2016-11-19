@@ -5,9 +5,9 @@ if(isset($_POST['btn-save']))
 {
  // variables for input data
  $complete_name = $_POST['complete_name'];
- $nickname = $_POST['nickname'];
- $emailadd = $_POST['emailadd'];
- $homeadd = $_POST['homeadd'];
+ $nickname = $_POST['nick_name'];
+ $emailadd = $_POST['email_add'];
+ $homeadd = $_POST['home_add'];
  $gender = $_POST['gender'];
  $cellno = $_POST['cellno'];
  $comment = $_POST['comment'];
