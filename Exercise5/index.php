@@ -54,7 +54,7 @@ function delete_id(id)
 }
 </script>
 </head>
-<body style="background-image: url(bg.jpg);">
+<body style="background-image: url(ironman.jpg);">
 <center>
 
 <div id="header">
