@@ -125,6 +125,10 @@ a:hover{
   opacity: 0.7;
 }
 
+.chantal {background-color:white;padding:5px;width:60%;text-align:center;margin-left:20%;border:2px solid pink;padding-bottom:30px;position:static;}
+.sagot {background-color:white;height:500px;width:60%;text-align:center;position:static;margin-left:20%;margin-top:50px;border:2px dashed pink;}
+
+
 
 
 		 </style>
@@ -345,7 +349,7 @@ function test_input($data) {
   return $data;
 }
 ?>
-
+<div class = chantal >
 <h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field.</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
@@ -367,7 +371,9 @@ function test_input($data) {
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
+</div>
 
+<div class = "sagot">
 <?php
 echo "<h2>Input:</h2>";
 echo $name;
@@ -380,7 +386,7 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-
+</div>
 
 		<body>
 	</html>
