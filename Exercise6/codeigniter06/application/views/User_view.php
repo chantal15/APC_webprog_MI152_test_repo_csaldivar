@@ -7,7 +7,8 @@
    </head>
 	
    <body> 
-      <a href = "<?php echo base_url(); ?>index.php/user/add_view">Add</a>
+      <a href = "<?php echo base_url(); ?>
+         index.php/user/add_view">Add</a>
 		
       <table border = "1"> 
          <?php 
