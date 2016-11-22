@@ -6,8 +6,8 @@
       <title>Students Example</title> 
    </head>
 	
-   <body style="background-image: url(cityci.png);">
-   
+   <body> 
+      
       <a href = "<?php echo base_url(); ?>index.php/user/add_view">Add</a>
 		
       <table border = "1"> 
