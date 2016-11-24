@@ -2,6 +2,11 @@
 <html lang = "en">
  
    <head> 
+        <style>
+body {
+    background-image: url('../upload/cityci.png');
+}
+</style>
       <meta charset = "utf-8"> 
       <title>Students Example</title> 
    </head>
