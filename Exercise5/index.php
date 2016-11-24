@@ -65,7 +65,11 @@ function delete_id(id)
 
 <div id="body">
  <div id="content">
+<<<<<<< HEAD
     <a href="3mypage.php">Go back to main page</a>
+=======
+	 <a href="3mypage.php">Go back to main page</a>
+>>>>>>> 31279747516d3d0baa352d0da74ffa5481cabe90
     <table align="center">
     <tr>
     <th colspan="9"><a href="add_data.php">add data here.</a></th>
