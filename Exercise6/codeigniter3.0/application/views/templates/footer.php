@@ -1,3 +1,3 @@
-<p><em>Copyright © Chantal Saldivar</em></p>
+<p><em>Copyright © Chanty Saldivar</em></p>
         </body>
 </html>
