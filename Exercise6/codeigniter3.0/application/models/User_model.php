@@ -34,7 +34,7 @@ class User_model extends CI_Model {
     {
         $this->load->helper('url');
  
-        $slug = url_firstname($this->input->post('firstname'), 'dash', TRUE);
+        $slug = url_title($this->input->post('firstname'), 'dash', TRUE);
  
         $data = array(
             'firstname' => $this->input->post('firstname'),
