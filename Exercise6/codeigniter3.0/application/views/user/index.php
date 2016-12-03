@@ -26,7 +26,7 @@
             <td>
                 <a href="<?php echo site_url('user/'.$user_item['slug']); ?>">View</a> |
                 <a href="<?php echo site_url('user/edit/'.$user_item['id']); ?>">Edit</a> |
-                <a href="<?php echo site_url('user/delete/'.$user_item['id']); ?>" onClick="return confirm('Are you sure you want to delete?')">Delete</a>
+                <a href="<?php echo site_url('user/delete/'.$user_item['id']); ?>" onClick="return confirm('Deleted data cant be retrieve anymore.Do you still wanna perform the action?')">Delete</a>
             </td>
         </tr>
 <?php endforeach; ?>
