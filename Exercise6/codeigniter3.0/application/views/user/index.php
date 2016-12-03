@@ -1,7 +1,7 @@
 <h2><?php echo $firstname; ?></h2>
 
  
-<table border='1' cellpadding='4'>
+<table border='5' cellpadding='4'>
     <tr>
         <td><strong>First Name</strong></td>
         <td><strong>Last Name</strong></td>
