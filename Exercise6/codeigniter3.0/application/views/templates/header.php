@@ -14,5 +14,5 @@ body {
 
         <body>
  
-                <h1>User Information</h1>
+                <h1>User's Database</h1>
                 <p><a href="<?php echo site_url('user'); ?>">Home</a> | <a href="<?php echo site_url('user/create'); ?>">add data</a></p>
