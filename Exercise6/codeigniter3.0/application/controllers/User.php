@@ -75,7 +75,7 @@ class User extends CI_Controller {
     
     public function edit()
     {
-        $id = $this->uri->segment(3);
+        $id = $this->uri->segment(6);
         
         if (empty($id))
         {
