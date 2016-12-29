@@ -12,7 +12,23 @@ $this->params['breadcrumbs'][] = 'Home';
 ?>
 
 
-INSERT YOUR HOMEPAGE TEXT HERE!!!
+<div class="container">
+            <img src="chantieee.jpg" alt="Norway" height="600">
+            <div class="center">
+
+ <h1>CHANTAL SALDIVAR</h1>
+
+            <p>Hello! Hi! Im Chantal Saldivar but you can call me chanty as well.Im an <stong>APCIAN</strong> student and Im welcoming myself to the website world.<br>I hope html will not be so hard to me,patience is a must! Im so exoited about learning more whoooooooooooooooooooooooooooooooo! :)</p>
+
+            <br>
+
+            <br>
+
+            <h1>Hobbies</h1>
+
+            <p>I can say that I have many hobbies in life.Lets start naming it one by one when it comes to sports I love playing basketball and table tennis.</br>When Im at home spending my spare time, Usually I watch movies,read some inspirational<br>
+            quotes and study lectures at day time.At night I kept on browsing facebook till dawn. </p>
+
 
 
 
