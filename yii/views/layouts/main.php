@@ -77,3 +77,4 @@ AppAsset::register($this);
 </html>
 <?php $this->endPage() ?>
 </div>
+}
